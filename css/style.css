@@ -1,0 +1,230 @@
+:root {
+    --santa-red: #A31123;
+    --santa-red-alfa: #a3112270;
+    --santa-green: #0A9F99;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    padding: 3% 15%;
+    background-color: var(--santa-red);
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    width: auto;    
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(10deg);
+}
+
+/* FEATURE SECTION */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#features i{
+    margin-bottom: 1rem;
+    color: var(--santa-red);
+    transform: 1s;
+    transition-duration: 1s;
+}
+
+#features i:hover{
+    color: var(--santa-green);
+    transform: scale(1.1);
+}
+
+.feature-box h3{
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.feature-box p{
+    color: #00000088;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    background-color: var(--santa-red-alfa);
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+#testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.carousel-inner{
+    padding: 1% 20%;
+}
+
+/* PRESS */
+
+.press{
+    background-color: var(--santa-red-alfa);
+    text-align: center;
+    padding: 1% 0 2% 0;
+}
+
+.press-logo{
+    margin: 0 1%;
+    width: 15%;
+}
+
+/* CARDS */
+
+#pricing{
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.row1{
+    padding: 0 10%;
+}
+
+.card{
+    text-align: center;
+    margin: 0 5%;
+}
+
+.card h3{
+    font-size: 2rem;
+}
+
+.card h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.card p{
+    font-size: 1.4rem;
+}
+
+.card-header{
+    background-color: #00000015;
+}
+
+/*
+.btn{
+    width: 90%;
+    font-size: 1.5rem;
+    margin: 2%;
+}
+
+.btn1{
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.btn2{
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+.btn1:hover{
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+.btn2:hover{
+    color: #fff;
+    background-color: #1a1a1a;
+}
+*/
+
+/* CALL TO ACTION */
+
+.cta{
+    background-color: var(--santa-red);
+    text-align: center;
+    padding-top: 5%;
+}
+
+.cta h3{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.footer a{
+    color: #000;
+    margin: 0% 0.4%;
+}
+
+.footer p{
+    margin-top: 1%;
+}
